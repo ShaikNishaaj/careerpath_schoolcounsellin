@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPath - School Counselling Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Career<span>Path</span></div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Success Stories</a></li>
+                    <li><a href="#assessment">Career Test</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hero">
+                <h1>Empowering Students for Future Careers</h1>
+                <p>Aligning education with aspirations through comprehensive career counselling programs in schools as envisioned by NEP 2020</p>
+                <a href="#assessment" class="btn">Take Career Assessment</a>
+                <a href="#features" class="btn btn-outline">Explore Programs</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Our Program</h2>
+                <p>Our career counselling initiative addresses the critical gap in career guidance in Indian schools, helping students make informed decisions about their future paths.</p>
+            </div>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>AI-Powered Assessments</h3>
+                    <p>Advanced algorithms analyze student interests, strengths, and market trends to suggest optimal career paths.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">👩‍🏫</div>
+                    <h3>Trained Counsellors</h3>
+                    <p>Specialized training for school counsellors to provide effective, personalized career guidance.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Industry Mentorship</h3>
+                    <p>Direct connections with professionals across diverse fields for real-world career insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Innovative Solutions</h2>
+                <p>Comprehensive tools and programs designed to transform career guidance in schools</p>
+            </div>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Digital Career Portals</h3>
+                    <p>Interactive platforms with extensive resources on careers, skills, and educational pathways.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Virtual Job Simulations</h3>
+                    <p>Gamified experiences that let students explore different professions through realistic scenarios.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Curriculum Integration</h3>
+                    <p>Career awareness modules embedded in school curriculum from middle school onwards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Success Stories</h2>
+                <p>Hear from students and educators who have benefited from our programs</p>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"The career assessment helped me discover my passion for environmental science, something I hadn't considered before. Now I'm pursuing my dream career!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Priya K." class="author-img">
+                        <div class="author-info">
+                            <h4>Priya K.</h4>
+                            <p>Environmental Science Student</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>"As a school counsellor, the training and tools provided have transformed how we guide our students. We're seeing much more informed career choices."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Rahul S." class="author-img">
+                        <div class="author-info">
+                            <h4>Rahul S.</h4>
+                            <p>School Counsellor, Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>"The mentorship program connected me with a cybersecurity professional who guided me through certifications. I just landed my first internship!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Arjun M." class="author-img">
+                        <div class="author-info">
+                            <h4>Arjun M.</h4>
+                            <p>Computer Science Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Career Assessment Section -->
+    <section id="assessment" class="career-assessment">
+        <div class="container">
+            <div class="section-title">
+                <h2>Career Interest Assessment</h2>
+                <p>Take our quick assessment to discover careers that match your interests and strengths</p>
+            </div>
+            
+            <div class="assessment-form">
+                <form id="careerForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="grade">Grade/Class</label>
+                        <select id="grade" class="form-control" required>
+                            <option value="">Select your grade</option>
+                            <option value="8">8th Grade</option>
+                            <option value="9">9th Grade</option>
+                            <option value="10">10th Grade</option>
+                            <option value="11">11th Grade</option>
+                            <option value="12">12th Grade</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>What subjects do you enjoy most? (Select up to 3)</label>
+                        <div class="interest-options">
+                            <label><input type="checkbox" name="subjects" value="math"> Mathematics</label>
+                            <label><input type="checkbox" name="subjects" value="science"> Science</label>
+                            <label><input type="checkbox" name="subjects" value="arts"> Arts</label>
+                            <label><input type="checkbox" name="subjects" value="social"> Social Studies</label>
+                            <label><input type="checkbox" name="subjects" value="language"> Languages</label>
+                            <label><input type="checkbox" name="subjects" value="computer"> Computer Science</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>What activities do you enjoy? (Select up to 3)</label>
+                        <div class="interest-options">
+                            <label><input type="checkbox" name="activities" value="problem-solving"> Problem Solving</label>
+                            <label><input type="checkbox" name="activities" value="creative"> Creative Work</label>
+                            <label><input type="checkbox" name="activities" value="helping"> Helping Others</label>
+                            <label><input type="checkbox" name="activities" value="building"> Building Things</label>
+                            <label><input type="checkbox" name="activities" value="analyzing"> Analyzing Data</label>
+                            <label><input type="checkbox" name="activities" value="leading"> Leading Teams</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="environment">What work environment do you prefer?</label>
+                        <select id="environment" class="form-control" required>
+                            <option value="">Select preferred environment</option>
+                            <option value="office">Office/Corporate</option>
+                            <option value="remote">Remote/Flexible</option>
+                            <option value="outdoor">Outdoor/Field Work</option>
+                            <option value="lab">Laboratory/Research</option>
+                            <option value="creative">Creative Studio</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn" style="width: 100%;">Get Career Recommendations</button>
+                </form>
+                
+                <div id="results" style="display: none; margin-top: 2rem;">
+                    <h3 style="text-align: center; margin-bottom: 1rem;">Your Career Matches</h3>
+                    <div id="resultContent"></div>
+                    <p style="text-align: center; margin-top: 1rem;">Want to explore these careers further? <a href="#" style="color: var(--primary);">Book a counselling session</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>CareerPath</h3>
+                    <p>Empowering students with informed career choices through innovative counselling programs aligned with NEP 2020.</p>
+                    <div class="social-links">
+                        <a href="#">📱</a>
+                        <a href="#">📘</a>
+                        <a href="#">📸</a>
+                        <a href="#">🔗</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li><a href="#">School Counsellor Training</a></li>
+                        <li><a href="#">Career Exploration Workshops</a></li>
+                        <li><a href="#">Industry Mentorship</a></li>
+                        <li><a href="#">Parent Awareness Sessions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Career Guides</a></li>
+                        <li><a href="#">Skill Development</a></li>
+                        <li><a href="#">Scholarship Information</a></li>
+                        <li><a href="#">Job Market Trends</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Email: info@careerpath.edu</li>
+                        <li>Phone: +91 9876543210</li>
+                        <li>Schools Partnership</li>
+                        <li>Educator Resources</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 CareerPath. All rights reserved. Aligned with NEP 2020 initiatives.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Result Modal -->
+    <div class="modal" id="resultModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Your Career Assessment Results</h2>
+            <div id="modalResults"></div>
+            <p style="margin-top: 1.5rem;">Our counsellors can help you explore these options further. Would you like to schedule a session?</p>
+            <a href="#" class="btn" style="margin-top: 1rem;">Book Counselling Session</a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
